@@ -666,8 +666,8 @@ namespace MiningCore.Blockchain.Bitcoin
             else
                 networkType = daemonInfoResponse.Testnet ? BitcoinNetworkType.Test : BitcoinNetworkType.Main;
 
-            if(clusterConfig.PaymentProcessing?.Enabled == true && poolConfig.PaymentProcessing?.Enabled == true)
-                ConfigureRewards();
+//            if(clusterConfig.PaymentProcessing?.Enabled == true && poolConfig.PaymentProcessing?.Enabled == true)
+//                ConfigureRewards();
 
             // update stats
             BlockchainStats.NetworkType = networkType.ToString();

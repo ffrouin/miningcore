@@ -466,8 +466,8 @@ namespace MiningCore.Blockchain.Monero
                     break;
             }
 
-            if (clusterConfig.PaymentProcessing?.Enabled == true && poolConfig.PaymentProcessing?.Enabled == true)
-                ConfigureRewards();
+//            if (clusterConfig.PaymentProcessing?.Enabled == true && poolConfig.PaymentProcessing?.Enabled == true)
+//                ConfigureRewards();
 
             // update stats
             BlockchainStats.RewardType = "POW";
